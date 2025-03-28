@@ -14,7 +14,7 @@ function contagem(duration, display){
 }
 
 window.onload = function(){
-    var duration = 60 * 4;
+    var duration = 60 * 2;
     var display = document.querySelector("#timer");
     contagem(duration, display);
 }
